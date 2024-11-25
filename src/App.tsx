@@ -1,14 +1,13 @@
 import Header from "./Componets/Layout/Header";
-import Main1 from "./Componets/Layout/Main1";
-import Main2 from "./Componets/Layout/Main2";
-import Main2_page from "./Componets/Layout/Main2_page";
+import Home from "./Componets/Layout/Home";
+import Profile from "./Componets/Layout/Profile";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Main1 />
-      <Main2_page />
+      <Home />
+      <Profile />
     </div>
   );
 }

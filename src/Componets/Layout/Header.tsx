@@ -3,7 +3,7 @@ import { CSSProperties } from "react";
 const Header = () => {
   const css: CSSProperties = {
     display: "flex",
-    backgroundColor: "white",
+    backgroundColor: "transparent",
 
     width: "100vw",
     height: "70px",

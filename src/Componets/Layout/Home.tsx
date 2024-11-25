@@ -1,10 +1,10 @@
 import { CSSProperties } from "react";
 import { LuMouse } from "react-icons/lu";
 
-const Main1 = () => {
+const Home = () => {
   const css: CSSProperties = {
     width: "100vw",
-    height: "600px",
+    height: "800px",
 
     display: "flex",
     flexDirection: "column",
@@ -12,17 +12,22 @@ const Main1 = () => {
     alignItems: "center",
     whiteSpace: "pre-line", // 줄 바꿈용 css
     textAlign: "center",
-    // backgroundColor: "#FFE3E3",
-    backgroundImage: "linear-gradient(-360deg, #FFFEFF 0%, #D7FFFE 100%)",
+
+    backgroundColor: "#FFF9E8",
   };
   const fontcss: CSSProperties = {
     fontSize: "22px",
     color: "grey",
     marginTop: "-20px",
   };
+  const titlecss: CSSProperties = {
+    fontSize: "60px",
+    color: "#0D7083",
+    fontWeight: 900,
+  };
   return (
     <div style={css}>
-      <h1 style={{ fontSize: "60px" }}>YULIM {"\n"} PORTFOLIO</h1>
+      <h1 style={titlecss}>YULIM {"\n"} PORTFOLIO</h1>
       <p style={fontcss}>Welcom To My Portfolio</p>
       <p style={{ marginTop: "80px", fontWeight: 600, color: "grey" }}>
         scroll down
@@ -32,4 +37,4 @@ const Main1 = () => {
   );
 };
 
-export default Main1;
+export default Home;
