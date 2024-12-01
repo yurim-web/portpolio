@@ -7,9 +7,12 @@ function App() {
   return (
     <div className="App">
       <Header />
+     
       <Home />
       <Profile />
       <Skill />
+   
+      
     </div>
   );
 }
